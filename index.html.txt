@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>3D Minecraft Clone</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="crosshair"></div>
+  <div id="info">
+    <div>Blocks: <span id="blockCount">0</span></div>
+    <div>Selected: <span id="selectedBlock">Grass</span></div>
+  </div>
+  <div id="controls">
+    WASD Move · Mouse Look · L-Click Remove · R-Click Place · 1-4 Pick Block
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
